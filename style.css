@@ -1,0 +1,16 @@
+.menu-navegacao{
+    Width: 80%;
+    margin: auto;
+    background-color: brown;
+}
+ 
+ul{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+li{
+    padding:30px;
+
+}
