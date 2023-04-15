@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
 .menu-navegacao{
     Width: 80%;
     margin: auto;
     background-color: brown;
 }
  
-ul{
+.menu-navegacao ul{
     display: flex;
     justify-content: center;
     background-color: brown;
 }
 
-li{
+.menu-navegacao li{
     padding:30px;
+
+}
+
+.titulo-pagina{
+    align:"center";
+    font-family: 'Tilt Prism', cursive; 
 
 }
