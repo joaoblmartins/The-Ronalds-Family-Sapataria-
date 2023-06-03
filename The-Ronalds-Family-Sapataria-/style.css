@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+.titulo-da-pagina{
+    font-size: xx-large;
+    background-color: brown;
+    font-family: 'Rye', cursive;
+    text-align: center;
+}
+
+.menu-navegacao{
+    Width: 80%;
+    margin: auto;
+    background-color: brown;
+}
+ 
+.menu-navegacao ul{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+.menu-navegacao li{
+    padding:30px;
+
+}
