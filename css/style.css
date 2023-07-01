@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+:root {
+      --cor-principal: #8B4513; 
+      --fonte-rye:'Rye', cursive;
+}
+
+.sapataria-pai-ronaldo{
+    width: 1px;
+}
+
+body {
+    font-family: var(--fonte-rye);
+}
+
+.titulo-da-pagina {
+    font-size: 300%;
+    background-color: brown;
+    font-family: 'Rye', cursive;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+    Width: 100%;
+    height: 60px;
+}
+
+.sobre-nos{
+    display: flex;
+    text-align: center;
+    Width: 100%;
+    height: 40px;
+    flex-wrap: nowrap;
+    margin: auto;
+    font-size: x-large;
+    list-style: none;
+}
+ 
+.menu-navegacao {
+    display: flex;   
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: rgb(95, 23, 23);    
+    Width: 100%;
+    height: 60px;
+    align-content: center;
+
+}
+
+a {
+    display: flex;
+    font-size: x-large; 
+    text-align: justify;
+    color: yellow;  
+    text-decoration: none; 
+    
+}
+
+.catalago{
+    display: flex;
+    font-family: var(--fonte-rye);
+    font-size: xx-large;
+    align-items: center;
+    background-color: chocolate;
+    border-style: double;
+    min-height: 50px;
+}
+
+.cabecalho-masculino {
+    display: flex;
+    font-size: larger;
+    justify-content: space-evenly;
+    border: 10px solid transparent;
+    padding: 15px;
+    
+}
+
+.container-sapatos-masculino {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: baseline;
+        
+}    
+
+.cabecalho-feminino {
+    display: flex;
+    font-size: larger;
+    justify-content: space-evenly;
+}
+
+.container-sapatos-feminino {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: baseline;
+}  
+
+.cabecalho-bolsas {
+    display: flex;
+    font-size: larger;
+    justify-content: space-evenly;
+}
+
+.container-bolsas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: baseline;
+}  
+
+.cabecalho-carteiras-cintos {
+    display: flex;
+    font-size: larger;
+    justify-content: space-evenly;
+}
+
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 stretch;
+  }
+
+.container-carteiras-cintos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: baseline;
+}  
+
+.rodape {
+    background-color: var(--cor-principal);
+    color: #0a0909;
+    padding: 20px;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 600px)
+{
+        .titulo-da-pagina,
+        .sobre-nos,
+        .menu-navegacao,
+        .h1,
+        .cabecalho-masculino,
+        .container-sapatos-masculino,
+        .cabecalho-feminino,
+        .container-sapatos-feminino,
+        .cabecalho-bolsas,
+        .container-bolsas,
+        .cabecalho-carteiras-cintos,
+        .container-carteiras-cintos
+
+        {
+            width: 100%;
+        }
+
+        .main{
+            padding: 0px;
+            margin: 0px;
+        }
+}
+
+@media screen and (max-width: 300px) 
+{
+    
+}
